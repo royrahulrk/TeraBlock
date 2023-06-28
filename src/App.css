@@ -50,14 +50,26 @@ html {
 
 }
 }
-@media (max-width:768px) {}
+@media (max-width:768px) {
+  .quiz-card {
+
+    gap: 2rem !important;
+  }
+  .quiz-h {
+    width:100% !important;
+}
+}
 
 
 @media (min-width:1024px) {
   .navbar-link {
     font-size: 1.4rem !important;
+    
 
 
+}
+.teraBlock {
+  gap: 8rem !important;
 }
 }
 @media (min-width: 819px) and (max-width: 912px) {
@@ -67,5 +79,9 @@ html {
   .mainHeader {
     padding: 0 2.8rem !important;
 
+}
+.quiz-card {
+
+  gap: 2rem !important;
 }
 }
