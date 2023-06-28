@@ -102,6 +102,7 @@ justify-content: space-evenly;
     }
     .feed {
         padding: 2rem;
+        gap: 3rem;
     }
 }
 @media (max-width:466px) {
@@ -111,7 +112,16 @@ justify-content: space-evenly;
     .start-Section-left {
         padding: 0;
         padding-top: 4rem;
-        padding-left: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .Section-left-h {
+        font-size: 3.625rem;
+        text-align: center;
+    }
+    .Section-left-h-dec {
+        font-size: 2rem;
+        text-align: center;
     }
     .Section-left-img {
         padding: 0;

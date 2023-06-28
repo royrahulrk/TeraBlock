@@ -11,6 +11,11 @@ html {
   overflow-x: hidden;
 }
 @media (max-width:466px) {
+  .Section-left-imgs img{
+    width: 6.5rem !important;
+  }
+  .investing-section-bottam {
+    width: 90% !important;}
   .quiz-h {
     width: 100% !important;
   }
@@ -58,10 +63,17 @@ html {
 }
 }
 @media (max-width:768px) {
+  .center-inv{
+    width: 90% !important;
+  }
+  .chart-big-data{
+    width: 90% !important;
+  }
   .quiz-card {
 
     gap: 2rem !important;
   }
+  
   .quiz-h {
     width:100% !important;
 

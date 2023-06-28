@@ -46,8 +46,10 @@ const StartSection = () => {
         </div>
         <div className="feed-section">
           <>
-           
-            <span>19,006,055,721</span>
+           <p>
+           <span>19,006,055,721</span>
+           </p>
+            
           </>
           <p >Tokens Transacted</p>
         </div>
