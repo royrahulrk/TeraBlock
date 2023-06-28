@@ -10,7 +10,31 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
+@media (max-width:1600px) {
+  .teraBlock {
+  gap: 12rem !important;
+  }
+}
 @media (max-width:466px) {
+  .investing-chart-h p {
+    font-size: 1.2rem;
+  
+}
+  .investing-chart-h h2 {
+    font-size: 3rem;}
+  .quiz-card div {
+    width: 80% !important;
+  }
+  .quiz-h h1 {
+    font-size: 2rem !important;
+  }
+  .slider-h h2 {
+    font-size: 2.5rem !important;
+  }
+  .slider-h p {
+    font-size: 1rem !important;
+
+}
   .Section-left-imgs img{
     width: 6.5rem !important;
   }
@@ -84,7 +108,7 @@ html {
 }
 
 
-@media (min-width:1024px) {
+@media (max-width:1024px) {
   .navbar-link {
     font-size: 1.4rem !important;
     
