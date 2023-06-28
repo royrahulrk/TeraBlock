@@ -1,38 +1,71 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+@media (max-width:466px) {
+  .quiz-h {
+    width: 100% !important;
+  }
+  .quiz-card {
+    gap: 2rem;
+  }
+  .slider-h p {
+    line-height: 2rem !important;
+  }
+  .teraBlock {
+  
+    gap: 1rem;
+}
+.teraBlock {
+  gap: 0 !important;
+}
+.teraBlock div {
+ 
+  width: 16rem !important;
+}
+.faq {
   text-align: center;
+  padding: 1rem !important;
+ 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quiz {
+  padding: 1rem !important;
+  margin-top: 5rem;
+  margin-bottom: 5rem
 }
+.footerpad{
+  padding: 0 !important;
+}
+.navbar-lists {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  justify-content: flex-start !important;
+
+}
+}
+@media (max-width:768px) {}
+
+
+@media (min-width:1024px) {
+  .navbar-link {
+    font-size: 1.4rem !important;
+
+
+}
+}
+@media (min-width: 819px) and (max-width: 912px) {
+  .navbar-link {
+    font-size: 1.3rem !important;
   }
-}
+  .mainHeader {
+    padding: 0 2.8rem !important;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -1,0 +1,130 @@
+.investing-section {
+    display: flex;
+    padding: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.investing-section h2{
+    color: #1A2B6B;
+text-align: center;
+font-size: 3.5rem;
+font-weight: 800;
+line-height: 1.5625rem;
+}
+.investing-section p{
+    color: #6F6F6F;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 4.375rem;
+}
+.investing-section-bottam{
+    width: 25rem;
+    height: 25rem;
+   flex-shrink: 0;
+   border-radius: 16px;
+border: 1px solid rgba(55, 91, 210, 0.24);
+background: #FFF;
+box-shadow: 4px 4px 60px 0px rgba(55, 91, 210, 0.10);
+}
+.investing-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.investing-section-bottam img{
+    border-radius: 8px;
+border: 1.6px solid rgba(55, 91, 210, 0.19);
+background: rgba(247, 248, 252, 0.80);
+}
+.investing-section-bottam h4{
+    color: #0052FF;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.375rem;
+}
+.investing-section-bottam p{
+    color: #727272;
+font-size: 1.3rem;
+font-weight: 500;
+}
+
+.section-bottam-data {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+    height: 100%;
+    padding: 1rem;
+}
+.investing-chart-h h2{
+    color: #1A2B6B;
+text-align: center;
+font-size: 3.5rem;
+
+font-weight: 800;
+line-height: 1.5625rem;
+
+}
+
+.investing-chart-h{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 7rem;
+
+    padding-top: 10rem;
+}
+.investing-chart-h p{
+    color: #6F6F6F;
+    text-align: center;
+    font-size: 1.375rem;
+    line-height: 8rem;
+}
+.investing-chart-big{
+    border-radius: 16px;
+background: #FFF;
+box-shadow: 1px 4px 44px 0px rgba(0, 0, 0, 0.08);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.chart-big-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+.nvesting-chart-big hr{
+    background: #E3E3E3;
+    height: 5px;
+}
+
+.chart-big-data-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+.chart-big-data p{
+    color: var(--base-60, #A9A9A9);
+font-size: 1rem;
+line-height: 4rem;
+}
+.chart-coin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 14px;
+}
+.btn-chart{
+    border-radius: 2px;
+    border: 1.4px solid #0052FF;
+    background: #0052FF;
+    color: #ffff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

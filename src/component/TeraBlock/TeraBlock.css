@@ -1,0 +1,45 @@
+.teraBlock-h h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    color: rgba(255, 255, 255, 0.85);
+font-size: 2.75rem;
+font-weight: 600;
+}
+.teraBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 12rem;
+}
+.teraBlock div{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20rem;
+    width: 30rem;
+
+}
+.teraBlock img{
+    border-radius: 6px;
+background: #FFF;
+width:4rem;
+height:4rem;
+flex-shrink: 0;
+   
+}
+.teraBlock p{
+    color: #FFF;
+font-size: 1.625rem;
+
+font-weight: 700;
+}
+.teraBlock span{
+    color: rgba(255, 255, 255, 0.80);
+font-size: 1.25rem;
+font-weight: 600;
+}

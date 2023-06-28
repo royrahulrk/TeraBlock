@@ -1,0 +1,120 @@
+.footer{
+    background: #284BBF;
+}
+.footer-top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.footer-data{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.footer-data h3{
+    color: #FFF;
+font-size: 2rem;
+font-weight: 700;
+}
+.footer-data div{
+    color: #FFF;
+font-size: 1rem;
+font-weight: 500;
+}
+.footer-line{
+    background: #C2C2C2;
+height: 0.0625rem;
+}
+.footer-bottam{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem;
+    flex-wrap: wrap;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4rem;
+}
+.footer-bottam-data{
+    display: flex;
+align-items: center;
+width: 100%;
+justify-content: space-evenly;
+
+
+}
+.data-a{
+    color: #EEE;
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 4rem;
+}
+.flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border-radius: 4px;
+    border: 1.4px solid #FFF;
+    cursor: pointer;
+
+}
+.flag p{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.375rem;
+}
+
+
+@media (max-width:768px) {
+
+    .footer-bottam-data {
+        flex-wrap: wrap;
+    }
+    .data-a{
+        font-size: 1.3rem;
+    }
+    .footer-top {
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+    .foot-logo{
+        flex-direction: row;
+       width: 100%;
+       justify-content: center;
+       padding: 2rem;
+
+    }
+    .footer-responsive{
+        padding: 2rem;
+    }
+    .investing-chart-h h2 {
+        line-height: 5rem;
+    }
+    .investing-section h2 {
+        line-height: 5rem;
+    }
+    .feed {
+        padding: 2rem;
+    }
+}
+@media (max-width:466px) {
+    .footer-bottam {
+        gap: 2rem;
+    }
+    .start-Section-left {
+        padding: 0;
+        padding-top: 4rem;
+        padding-left: 1rem;
+    }
+    .Section-left-img {
+        padding: 0;
+        padding-top: 5rem;
+    }
+}

@@ -1,0 +1,100 @@
+.start-Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .start-Section-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+    padding: 6rem;
+  }
+  .start-Section-left span{
+    color: #375BD2;
+    font-size: 2.25rem;
+    font-weight: 500;
+  }
+  .Section-left-h{
+    color: #1A2B6B;
+    font-size: 4.625rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+}
+.Section-left-h-dec{
+    color: #6B6B6B;
+    font-size: 2.25rem;
+}
+.Section-left-btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.ui-get{
+    border-radius: 8px;
+    background: #0052FF;
+    box-shadow: 4px 4px 18px 0px rgba(0, 82, 255, 0.24);
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 12rem;
+    height: 4rem;
+    border: none;
+}
+.ui-launch{
+    border-radius: 8px;
+border: 1.8px solid #0052FF;
+background: #FFF;
+box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.12);
+    color: #0052FF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 12rem;
+    height: 4rem;
+    border: none;
+
+}
+.Section-left-img{
+    display: flex;
+align-items: center;
+justify-content: center;
+padding: 6rem;
+
+}
+.Section-left-img img{
+    width: 32rem;
+    height: 37rem;
+}
+.Section-left-imgs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 7rem;
+    flex-wrap: wrap;
+}
+.feed{
+    background-color: rgb(2, 81, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feed-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F5F7FD;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+    
+}
+.feed-section p{
+    font-size: 2rem;
+    padding: 1rem;
+}
