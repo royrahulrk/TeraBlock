@@ -49,6 +49,13 @@ html {
   justify-content: flex-start !important;
 
 }
+.res-chart{
+  display: none !important;
+}
+.chart-big-data p {
+  font-size: 1rem;
+
+}
 }
 @media (max-width:768px) {
   .quiz-card {
@@ -57,6 +64,10 @@ html {
   }
   .quiz-h {
     width:100% !important;
+
+}
+.res-chart{
+  display: none !important;
 }
 }
 

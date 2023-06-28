@@ -64,135 +64,138 @@ const Investing = () => {
       </div>
 
       {/* investing chart */}
-
+      {/* <div className="center-inv"> */}
       <div className="investing-chart-h">
         <h2>
           <b>Buy crypto straight into your Web3 wallet!</b>
         </h2>
         <p>Securely buy, sell, invest, track and transfer cryptocurrencies</p>
       </div>
+
       <div className="investing-chart-big">
-        <div className="chart-big-data">
-          <p >Name</p>
-          <p >Price</p>
-          <p >Change</p>
-          <p >Chart</p>
-          <p >Trade</p>
-          
+      <div className="center-inv">
+
+      <div className="chart-big-data">
+          <p>Name</p>
+          <p>Price</p>
+          <p>Change</p>
+          <p className="res-chart">Chart</p>
+          <p>Trade</p>
         </div>
         <hr />
 
-
-
-        </div>
         {/* adddata */}
-        <div className="investing-chart-big">
-        <div className="chart-big-data">
-          <div className="chart-coin">
-            <div>
-              <img src={Btc} alt="Bitcoin" />
+       
+          <div className="chart-big-data">
+            <div className="chart-coin">
+              <div>
+                <img src={Btc} alt="Bitcoin" />
+              </div>
+              <p>Bitcoin</p>
             </div>
-            <p>Bitcoin</p>
-          </div>
-          <p>$30,317</p>
-          <p>-0.69%</p>
-          <p>
-            <div>$784,393M</div>
-          </p>
-          <div>
+            <p>$30,317</p>
+            <p>-0.69%</p>
+            <p className="res-chart">
+              <div >$784,393M</div>
+            </p>
+            <div>
               <button className="btn-chart">Buy</button>
+            </div>
           </div>
+       
+        
+          <div className="chart-big-data">
+            <div className="chart-coin">
+              <div>
+                <img src={Btc} alt="Bitcoin" />
+              </div>
+              <p>Bitcoin</p>
+            </div>
+            <p>$30,317</p>
+            <p>-0.69%</p>
+            <p className="res-chart">
+              <div >$784,393M</div>
+            </p>
+            <div>
+              <button className="btn-chart">Buy</button>
+            </div>
+          </div>
+        
+        
+          <div className="chart-big-data">
+            <div className="chart-coin">
+              <div>
+                <img src={Btc} alt="Bitcoin" />
+              </div>
+              <p>Bitcoin</p>
+            </div>
+            <p>$30,317</p>
+            <p>-0.69%</p>
+            <p className="res-chart">
+              <div>$784,393M</div>
+            </p>
+            <div>
+              <button className="btn-chart">Buy</button>
+            </div>
+          
         </div>
+       
+          <div className="chart-big-data">
+            <div className="chart-coin">
+              <div>
+                <img src={Btc} alt="Bitcoin" />
+              </div>
+              <p>Bitcoin</p>
+            </div>
+            <p>$30,317</p>
+            <p>-0.69%</p>
+            <p className="res-chart">
+              <div >$784,393M</div>
+            </p>
+            <div>
+              <button className="btn-chart">Buy</button>
+            </div>
+          
+        </div>
+       
+          <div className="chart-big-data">
+            <div className="chart-coin">
+              <div>
+                <img src={Btc} alt="Bitcoin" />
+              </div>
+              <p>Bitcoin</p>
+            </div>
+            <p>$30,317</p>
+            <p>-0.69%</p>
+            <p className="res-chart">
+              <div>$784,393M</div>
+            </p>
+            <div>
+              <button className="btn-chart">Buy</button>
+            </div>
+          </div>
+       
+      
+          <div className="chart-big-data">
+            <div className="chart-coin">
+              <div>
+                <img src={Btc} alt="Bitcoin" />
+              </div>
+              <p>Bitcoin</p>
+            </div>
+            <p>$30,317</p>
+            <p>-0.69%</p>
+            <p className="res-chart">
+              <div>$784,393M</div>
+            </p>
+            <div >
+              <button className="btn-chart">Buy</button>
+            </div>
+          </div>
+
       </div>
-      <div className="investing-chart-big">
-        <div className="chart-big-data">
-          <div className="chart-coin">
-            <div>
-              <img src={Btc} alt="Bitcoin" />
-            </div>
-            <p>Bitcoin</p>
-          </div>
-          <p>$30,317</p>
-          <p>-0.69%</p>
-          <p>
-            <div>$784,393M</div>
-          </p>
-          <div>
-              <button className="btn-chart">Buy</button>
-          </div>
-        </div>
-      </div>
-      <div className="investing-chart-big">
-        <div className="chart-big-data">
-          <div className="chart-coin">
-            <div>
-              <img src={Btc} alt="Bitcoin" />
-            </div>
-            <p>Bitcoin</p>
-          </div>
-          <p>$30,317</p>
-          <p>-0.69%</p>
-          <p>
-            <div>$784,393M</div>
-          </p>
-          <div>
-              <button className="btn-chart">Buy</button>
-          </div>
-        </div>
-      </div>
-      <div className="investing-chart-big">
-        <div className="chart-big-data">
-          <div className="chart-coin">
-            <div>
-              <img src={Btc} alt="Bitcoin" />
-            </div>
-            <p>Bitcoin</p>
-          </div>
-          <p>$30,317</p>
-          <p>-0.69%</p>
-          <p>
-            <div>$784,393M</div>
-          </p>
-          <div>
-              <button className="btn-chart">Buy</button>
-          </div>
-        </div>
-      </div>
-      <div className="investing-chart-big">
-        <div className="chart-big-data">
-          <div className="chart-coin">
-            <div>
-              <img src={Btc} alt="Bitcoin" />
-            </div>
-            <p>Bitcoin</p>
-          </div>
-          <p>$30,317</p>
-          <p>-0.69%</p>
-          <p>
-            <div>$784,393M</div>
-          </p>
-          <div>
-              <button className="btn-chart">Buy</button>
-          </div>
-        </div>
-      </div>
-      <div className="investing-chart-big">
-        <div className="chart-big-data">
-          <div className="chart-coin">
-            <div>
-              <img src={Btc} alt="Bitcoin" />
-            </div>
-            <p>Bitcoin</p>
-          </div>
-          <p>$30,317</p>
-          <p>-0.69%</p>
-          <p>
-            <div>$784,393M</div>
-          </p>
-          <div>
-              <button className="btn-chart">Buy</button>
-          </div>
-        </div>
+       
+        
       </div>
     </>
   );
